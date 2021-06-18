@@ -1,0 +1,8 @@
+#!/bin/bash
+./prg.cpp
+case $? in
+0)echo "number was 0";;
+1)echo "number was positive";;
+2)echo "number was negative";;
+*)echo "erro";;
+esac

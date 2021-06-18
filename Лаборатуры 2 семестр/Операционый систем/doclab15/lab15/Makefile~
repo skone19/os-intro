@@ -1,0 +1,11 @@
+all: 
+Server: Server.c common.h
+	gcc Server.c -o Server
+
+
+Client: Client.c common.h
+	gcc Client.c -o Client
+
+clean: 
+	-rm Server Client *.o
+

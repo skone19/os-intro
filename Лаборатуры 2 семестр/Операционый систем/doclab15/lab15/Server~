@@ -1,0 +1,4 @@
+#!/bin/bash 
+gcc -o Server.out Server.c
+gcc -o Client.out Client.c
+gcc -o common.out common.h

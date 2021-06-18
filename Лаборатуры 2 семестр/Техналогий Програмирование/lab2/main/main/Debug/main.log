@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\rst\source\repos\main\main\main.cpp(38,9): warning C4101: 'other' : variable locale non référencée
+  main.vcxproj -> C:\Users\rst\source\repos\main\Debug\main.exe

@@ -1,0 +1,2 @@
+pandoc "имя.md" -F pandoc-crossref -o"имя.docx"
+pandoc "имя.md" -F pandoc-crossref --pdf-engline=lualatex --number-sections -o"имя.pdf"
